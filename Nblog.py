@@ -5,8 +5,8 @@ import json
 import re
 
 # 🔑 네이버 API 정보 입력
-client_id = "client_id"
-client_secret = "secret"
+client_id = "id"
+client_secret = "pw"
 
 def clean_html(raw_html):
     cleanr = re.compile('<.*?>')
